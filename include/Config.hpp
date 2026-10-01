@@ -1,8 +1,13 @@
 #pragma once
+
 #include <string>
+
+
 namespace Libus::Initializers{
-    extern bool LoginStatus = false;
-    extern bool CrashStatus = false;
+    void Crash();
+
+    extern bool LoginStatus ;
+    extern bool CrashStatus ;
 }
 namespace Libus::BaseConfig{
     inline constexpr int MAX_CHARACTER_COUNT =260;
