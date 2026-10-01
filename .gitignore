@@ -1,3 +1,5 @@
 .clangd
 
 /scripts
+/build
+/Auth

@@ -4,7 +4,12 @@
 
 
 namespace Libus::Initializers{
-    void Crash();
+
+    void SetNetworkStatus(bool status);
+    void SetLoginStatus();
+    void SetCrashStatus();
+
+    extern bool NetworkStatus ;
 
     extern bool LoginStatus ;
     extern bool CrashStatus ;
